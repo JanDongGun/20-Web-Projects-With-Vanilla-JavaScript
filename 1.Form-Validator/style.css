@@ -70,7 +70,6 @@ h2 {
 .form-control small {
   color: var(--error-color);
   visibility: hidden;
-  transition: 0.5s;
   font-size: 12px;
 }
 
