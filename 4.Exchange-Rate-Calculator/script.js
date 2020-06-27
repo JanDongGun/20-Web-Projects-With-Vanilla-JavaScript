@@ -21,7 +21,7 @@ function calculate() {
     });
 }
 
-function swapExchange() {
+function swapExchangeRate() {
   let temp = currencyEl_one.value;
   currencyEl_one.value = currencyEl_two.value;
   currencyEl_two.value = temp;
@@ -34,4 +34,4 @@ currencyEl_two.addEventListener('change', calculate);
 amountEl_one.addEventListener('input', calculate);
 amountEl_two.addEventListener('input', calculate);
 
-swap.addEventListener('click', swapExchange);
+swap.addEventListener('click', swapExchangeRate);
